@@ -4,7 +4,7 @@ if(strlen( $_SESSION["edmsid"])==0)
 {   header('location:logout.php');
 } else {
 
-if(isset($_POST['submit']))
+if(isset($_POST[]))
 {
     $category=$_POST['category'];
     $ntitle=$_POST['notetitle'];
