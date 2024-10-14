@@ -1,4 +1,4 @@
-<?php session_start();
+<?php session_hthynht
 include_once('includes/config.php');
 if(strlen( $_SESSION["edmsid"])==0)
 {   header('location:logout.php');
